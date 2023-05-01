@@ -1,0 +1,53 @@
+body{
+ color: blue;    
+}
+h1{
+    color: blueviolet;
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+}
+p{
+    margin: 0;
+    padding: 10px 0;
+    
+}
+a{
+  color: green;
+  padding: 10px 0;
+  display: block;
+  text-decoration:none;   
+}
+.container{
+    margin: 0px auto;
+    width: 800px;
+    padding: 0 10px;
+    border-right: 1px solid coral;
+    border-left: 1px solid coral;
+    background: skyblue;
+}
+.deco{
+    text-decoration: underline;
+    color: crimson;
+}
+.uppercase {
+    text-transform: uppercase;
+  }
+  
+.lowercase {
+    text-transform: lowercase;
+  }
+  
+.capitalize {
+    text-transform: capitalize;
+}
+.letter_space{
+    letter-spacing: 5px;
+}
+.line_height{
+    line-height: 60px;
+}
+.shadow {
+    text-shadow: -2px 1px 3px red;
+    /* text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue; */
+}

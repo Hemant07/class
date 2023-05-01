@@ -1,0 +1,25 @@
+p{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    padding: 5px 15px 0px 6px;
+    border: solid red;
+    border-top: 2px;
+    border-right: 5px;
+    border-bottom: 4px;
+    border-left:1px;
+    border-style: solid;
+    border-top-color: red;
+    border-right-color: blueviolet;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-bottom: 8px;
+    margin-left: 0px;
+    width: 400px;
+    background: skyblue;
+
+    outline:dotted 3px greenyellow
+    
+    /* height: 50px; */
+}

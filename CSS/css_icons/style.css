@@ -1,0 +1,18 @@
+.social-nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+}
+.social-nav li{
+    display: inline-block;
+}
+.social-nav li a {
+    display: block;
+    padding: 10px;
+    background: #8B5FBF;
+    color: #fff;
+}
+.social-nav li a:hover{
+    background: #61398F;
+}

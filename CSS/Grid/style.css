@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: grid;
+    grid-template-rows: 50px 100px;
+    grid-template-columns: repeat(3, 1fr);
+    background: #e71e63;
+    color: azure;
+    grid-gap: 100px 1em
+}
+.item-1{
+    background: #f4f152;
+}
+.item-2{
+    background: #0e77d2;
+}
+.item-3{
+    background: #a821bf;
+}
+.item-4{
+    background: #b01414;
+}
