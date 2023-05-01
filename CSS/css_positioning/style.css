@@ -1,3 +1,17 @@
+.container{
+    margin: 0 auto;
+    width: 980px;
+    padding-top: 30px;
+}
+.box{
+    background: lightgreen;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid green;
+    width: 450px;
+    line-height: 40px;
+}
 .pos-static{
     position: static;/*  this property we get in div predifine */
 }
@@ -7,6 +21,19 @@
 .pos-absu{
     position:absolute; /*this property behave like a content of parent box*/
 }
+.pos-fixed{
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+}
+.pos-sticky {
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: #cae8ca;
+    border: 2px solid #4CAF50;
+    z-index: 999;
+  }
 .box-1{
     background: yellow;
     width: 800px;
